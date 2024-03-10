@@ -1,0 +1,16 @@
+if SHIELD_SWEEP_XIAO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Sweep XIAO"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SWEEP_XIAO_LEFT || SHIELD_SWEEP_XIAO_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

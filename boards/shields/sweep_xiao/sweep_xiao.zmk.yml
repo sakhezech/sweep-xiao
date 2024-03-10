@@ -1,0 +1,8 @@
+file_format: "1"
+id: sweep_xiao
+name: Sweep XIAO
+type: shield
+url: https://github.com/sakhezech/sweep-xiao
+requires: [seeeduino_xiao_ble]
+features: [keys]
+siblings: [sweep_xiao_left, sweep_xiao_right]
