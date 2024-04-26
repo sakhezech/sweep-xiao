@@ -33,11 +33,11 @@
         default_layer {
             bindings = <
         //╭────────────┬────────────┬────────────┬────────────┬────────────╮   ╭────────────┬────────────┬────────────────┬─────────────┬──────────────╮
-           &kp Q        &ht LBRC W   &ht LBKT E   &ht LPAR R   &kp T            &ht TILDE Y  &ht RPAR U   &ht RBKT I       &ht RBRC O    &ht PIPE P
+           &kp Q        &ht LBRC W   &ht LBKT E   &ht LPAR R   &ht AT T         &ht TILDE Y  &ht RPAR U   &ht RBKT I       &ht RBRC O    &ht PIPE P
         //├────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────────┼─────────────┼──────────────┤
-           &lt 1 A      &hm LGUI S   &hm LALT D   &hm LCTRL F  &lt 2 G          &ht EQUAL H  &hm LCTRL J  &hm LALT K       &hm LGUI L    &ht COLON SEMI
+           &lt 1 A      &hm LGUI S   &hm LALT D   &hm LCTRL F  &lt 2 G          &ht EQUAL H  &hm LCTRL J  &hm LALT K       &hm LGUI L    &ht SEMI COLON
         //├────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────────┼─────────────┼──────────────┤
-           &kp Z        &ht GRAVE X  &ht SQT C    &ht DQT V    &kp B            &kp N        &ht MINUS M  &ht UNDER COMMA  &ht PLUS DOT  &ht BSLH FSLH
+           &kp Z        &ht GRAVE X  &ht SQT C    &ht DQT V    &ht HASH B       &kp N        &ht MINUS M  &ht UNDER COMMA  &ht PLUS DOT  &ht BSLH FSLH
         //╰────────────┴────────────┴────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────────┴─────────────┴──────────────╯
                                                   &kp LSHFT    &mo 3            &kp SPACE    &kp BSPC
         //                                       ╰────────────┴────────────╯   ╰────────────┴────────────╯
@@ -79,7 +79,7 @@
         //├────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
            &kp RA(SQT)  &none        &kp DEL      &none        &none            &none        &kp TAB      &kp LS(TAB)  &kp LS(LALT) &none
         //├────────────┼────────────┼────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
-           &none        &none        &kp CAPS     &none        &mo 4            &none        &none        &none        &none        &none
+           &kp RALT     &none        &kp CAPS     &none        &mo 4            &none        &none        &none        &none        &none
         //╰────────────┴────────────┴────────────┼────────────┼────────────┤   ├────────────┼────────────┼────────────┴────────────┴────────────╯
                                                   &trans       &trans           &kp RETURN   &kp ESC
         //                                       ╰────────────┴────────────╯   ╰────────────┴────────────╯
